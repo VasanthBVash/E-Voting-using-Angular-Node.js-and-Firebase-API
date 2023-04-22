@@ -1,0 +1,25 @@
+<form class="register-form" accept="" 
+>
+<div class="form-group">
+    <label class="text-uppercase">Name</label>
+    <input type="text" class="form-control" name="name" id="" [(ngModel)] = "name"
+     required>
+</div><br> 
+<div class="form-group">
+    <label class="text-uppercase">E-mail</label>
+    <input type="email" class="form-control" name="email" id="" [(ngModel)] = "email"
+     required>
+</div><br>
+<div class="form-group">
+    <label class="text-uppercase">Password</label>
+    <input type="password" class="form-control" name="password" id="" [(ngModel)] = "password"
+     required minlength="8">
+</div><br>
+
+<div class="regisbutton">
+    <input type="submit" class="btm btn-login float-right" value="Register" (click)="register()">
+</div>
+<div class="form-group">
+    Already have account ? please <a [routerLink]="['/log']" routerLinkActive="active">Login</a>
+</div>
+</form>

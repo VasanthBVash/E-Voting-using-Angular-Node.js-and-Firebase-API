@@ -1,0 +1,26 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    padding: 0%;
+}
+.container-fluid{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    background-image: url('/webvoting/src/assets/images/image1.png');
+}
+h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.active{
+    font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    color: black;
+    text-decoration: underline; 
+}
+

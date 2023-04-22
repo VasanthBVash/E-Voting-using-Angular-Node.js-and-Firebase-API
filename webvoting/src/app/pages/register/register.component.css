@@ -1,0 +1,27 @@
+.register-form{
+   background-color: rgb(201, 195, 195);
+    text-align: center;
+    width: 600px;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.form-group{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.form-group{
+    text-align: left;
+}
+.regisbutton{
+    text-align: right; 
+}
+.btm.btn-login{
+    background-color: rgb(46, 46, 249);
+    color: white;
+    padding: 3px;
+    border-radius: 50px;
+}

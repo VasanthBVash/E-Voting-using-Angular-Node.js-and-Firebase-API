@@ -1,0 +1,30 @@
+.footer{
+    background-color:black;
+    padding: 10px;
+    position: sticky;
+    top: 100%;
+    
+}
+.col-lg-4{
+    color: aliceblue;
+}
+h2{
+    font-size: 20px;
+    margin-left: 30px;
+}
+p{
+    margin-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 130px;
+    font-size: 20px 20px;
+}
+a:hover{
+    color: rgb(128, 128, 248);;
+}
+.privacy{
+    text-align: center;
+    margin-right: 353px;
+}
